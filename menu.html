@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Pizza Detail - Pizzaiolo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pizza detail page - Pizzaiolo Restaurant">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER WITH INLINE SVG LOGO -->
+    <header>
+        <nav id="navbar">
+            <!-- Inline SVG Logo (Chef Hat Icon) -->
+            <svg class="logo"
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="Pizzaiolo Restaurant Logo"
+            >
+              <!-- Chef hat icon -->
+              <path
+                d="M20 48v-6H16c-3.31 0-6-2.69-6-6 0-2.86 2.02-5.26 4.72-5.87A8.01 8.01 0 0 1 24 18c1.31 0 2.55.31 3.64.86A10 10 0 0 1 36 16c4.96 0 9 3.6 9.83 8.32C48.66 24.54 51 27.02 51 30c0 3.31-2.69 6-6 6h-4v6H20zm4 0h16v4c0 1.1-.9 2-2 2H26c-1.1 0-2-.9-2-2v-4z"
+                fill="currentColor"
+              />
+            </svg>
+            
+            <!-- Navigation Links -->
+            <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="contact.html">Reservation</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main id="dishDetail" class="dish-detail">
+        <!-- Back button -->
+        <div class="detail-header">
+            <a href="index.html" class="btn-back">← Back</a>
+        </div>
+
+        <!-- Large image section with carousel -->
+        <section class="detail-image-section">
+            <div class="carousel-container">
+                <img id="mainImage" src="" alt="Pizza image" class="main-image">
+                <div class="carousel-controls" id="carouselControls" style="display: none;">
+                    <button id="prevBtn" class="carousel-btn prev-btn">❮</button>
+                    <button id="nextBtn" class="carousel-btn next-btn">❯</button>
+                </div>
+            </div>
+            <p class="image-counter" id="imageCounter"></p>
+        </section>
+
+        <!-- Dish information section -->
+        <section class="detail-info">
+            <h1 id="dishTitle"></h1>
+            <p class="detail-price" id="dishPrice"></p>
+            
+            <!-- Ingredients -->
+            <div class="detail-section">
+                <h2>Ingredients</h2>
+                <p id="dishIngredients"></p>
+            </div>
+
+            <!-- History -->
+            <div class="detail-section">
+                <h2>History</h2>
+                <p id="dishHistory"></p>
+            </div>
+        </section>
+    </main>
+
+    <!-- MOBILE BOTTOM NAVIGATION -->
+    <nav class="bottom-bar">
+        <a class="bottom-link" href="index.html">Menu</a>
+        <a class="bottom-link" href="contact.html">Reservation</a>
+        <a class="bottom-link" href="about.html">About</a>
+    </nav>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Pizzaiolo</h3>
+                <p>Authentic Italian pizza<br>since 1985</p>
+            </div>
+            <div class="footer-section">
+                <h3>Address</h3>
+                <p>123 Rue de Rome<br>75000 Paris, France</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Phone: +33 1 23 45 67 89<br>Email: info@pizzaiolo.fr</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2024 Pizzaiolo. All rights reserved.</span>
+        </div>
+    </footer>
+
+    <script src="detail.js"></script>
+</body>
+
+</html>

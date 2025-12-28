@@ -1,0 +1,82 @@
+[
+{
+"id": 1,
+"title": "Pizza Margherita",
+"price": "7€",
+"description": "Tomato sauce, mozzarella, fresh basil, salt, and extra-virgin olive oil.",
+"images": ["images/pizza/margherita.webp", "images/pizza/margherita pizzaiolo.webp"],
+"ingredients": "Tomato sauce, mozzarella, fresh basil, sea salt, extra-virgin olive oil",
+"history": "The Margherita is the queen of Italian pizzas. Created in Naples in the 18th century, this simple yet elegant pizza represents the colors of the Italian flag: red (tomato), white (mozzarella), and green (basil). It's the foundation of authentic Neapolitan pizza-making.",
+"category": "Pizza"
+},
+{
+"id": 2,
+"title": "Pizza Capricciosa",
+"price": "9€",
+"description": "Tomato sauce, mozzarella, ham, mushrooms, artichokes, and black olives.",
+"images": ["images/pizza/Capricciosa.webp","images/pizza/capricciosa pizzaiola.webp"],
+"ingredients": "Tomato sauce, mozzarella, ham, fresh mushrooms, artichokes, black olives, oregano",
+"history": "Capricciosa means 'whimsical' in Italian, reflecting the pizza's varied toppings. This Roman creation is perfect for those who can't decide—it offers a delightful mix of textures and flavors in every bite. Each ingredient adds its own unique character.",
+"category": "Pizza"
+},
+{
+"id": 3,
+"title": "Pizza Calzone",
+"price": "9€",
+"description": "Folded pizza filled with tomato sauce, mozzarella, ham or salami and ricotta.",
+"images": ["images/pizza/calzone.webp","images/pizza/calzone pizzaiola.webp"],
+"ingredients": "Folded dough, tomato sauce, mozzarella, ricotta, ham or salami, parmesan",
+"history": "Calzone, meaning 'trouser' in Italian, is a folded pizza that originated in Naples. This pocket-style pizza keeps all the delicious fillings sealed inside, making it perfect for a portable meal. Traditionally served with a side of marinara for dipping.",
+"category": "Pizza"
+},
+{
+"id": 4,
+"title": "Pizza Burrata",
+"price": "12€",
+"description": "Tomato sauce, mozzarella, burrata, basil and olive oil.",
+"images": ["images/pizza/burrata.webp","images/pizza/burrata pizzaiola.webp"],
+"ingredients": "Tomato sauce, mozzarella, creamy burrata cheese, fresh basil, premium olive oil, sea salt",
+"history": "A modern twist on the classic Margherita, Burrata pizza elevates the experience with creamy burrata cheese. This specialty hails from Puglia and combines the best of tradition with contemporary sophistication. The creamy center melts beautifully with the warm pizza.",
+"category": "Pizza"
+},
+{
+"id": 5,
+"title": "Pizza Napoli",
+"price": "9€",
+"description": "Tomato sauce, mozzarella, anchovies, capers, and oregano.",
+"images": ["images/pizza/napoli.webp","images/pizza/napoli pizzaiolo.webp"],
+"ingredients": "Tomato sauce, mozzarella, fresh anchovies, capers, oregano, olive oil",
+"history": "Named after Naples, this pizza celebrates the Mediterranean flavors of the Campania region. The salty anchovies and tangy capers create a bold, distinctive taste that's beloved by seafood enthusiasts. A true classic from the birthplace of pizza.",
+"category": "Pizza"
+},
+{
+"id": 6,
+"title": "Pizza Prosciutto",
+"price": "11€",
+"description": "Tomato sauce, mozzarella, and prosciutto.",
+"images": ["images/pizza/prosciutto.webp","images/pizza/prosciutto pizzaiola.webp"],
+"ingredients": "Tomato sauce, mozzarella, premium prosciutto di Parma, fresh arugula, parmesan shavings",
+"history": "Simple yet luxurious, the Prosciutto pizza is a celebration of Italy's most iconic cured meat. Traditionally served with fresh arugula added after baking, this pizza allows the delicate flavors of prosciutto to shine. A favorite among purists.",
+"category": "Pizza"
+},
+{
+"id": 7,
+"title": "Pizza Quattro Stagioni",
+"price": "12€",
+"description": "Tomato sauce, mozzarella, artichokes, ham, mushrooms, and olives.",
+"images": ["images/pizza/quattroStagioni.webp","images/pizza/quattro stagioni pizzaiolo.webp"],
+"ingredients": "Tomato sauce, mozzarella, artichokes, ham, fresh mushrooms, black olives, oregano",
+"history": "Quattro Stagioni means 'Four Seasons' in Italian. Each quadrant of this pizza represents a different season with distinct ingredients. Created in the 1950s in Rome, this pizza is a celebration of Italian culinary diversity and the bounty of each season.",
+"category": "Pizza"
+},
+{
+"id": 8,
+"title": "Pizza Diavola",
+"price": "12€",
+"description": "Tomato sauce, mozzarella, and spicy salami.",
+"images": ["images/pizza/diavola.webp","images/pizza/diavola pizzaiolo.webp"],
+"ingredients": "Tomato sauce, mozzarella, spicy salami piccante, red chili flakes, oregano, olive oil",
+"history": "Diavola means 'devil' in Italian, referring to the pizza's spicy kick. This Neapolitan favorite combines the heat of spicy salami and chili peppers for those who love bold, fiery flavors. A modern classic that has become increasingly popular worldwide.",
+"category": "Pizza"
+}
+]

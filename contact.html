@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Reservation - Pizzaiolo</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Book your table at Pizzaiolo">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- HEADER WITH INLINE SVG LOGO -->
+    <header>
+        <nav id="navbar">
+            <!-- Inline SVG Logo (Chef Hat Icon) -->
+            <svg class="logo"
+              width="64"
+              height="64"
+              viewBox="0 0 64 64"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-label="Pizzaiolo Restaurant Logo"
+            >
+              <!-- Chef hat icon -->
+              <path
+                d="M20 48v-6H16c-3.31 0-6-2.69-6-6 0-2.86 2.02-5.26 4.72-5.87A8.01 8.01 0 0 1 24 18c1.31 0 2.55.31 3.64.86A10 10 0 0 1 36 16c4.96 0 9 3.6 9.83 8.32C48.66 24.54 51 27.02 51 30c0 3.31-2.69 6-6 6h-4v6H20zm4 0h16v4c0 1.1-.9 2-2 2H26c-1.1 0-2-.9-2-2v-4z"
+                fill="currentColor"
+              />
+            </svg>
+            
+            <!-- Navigation Links -->
+            <ul>
+                <li><a href="index.html">Menu</a></li>
+                <li><a href="contact.html">Reservation</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- BANNER -->
+    <section id="banner">
+        <img src="images/banner/salleVide.webp" alt="Dining Room">
+        <div class="banner-text">
+            <h1>Book your table</h1>
+            <p>Experience Pizzaiolo hospitality</p>
+        </div>
+    </section>
+
+    <!-- MAIN CONTENT -->
+    <main id="reservationMain">
+        <!-- Restaurant Information Section -->
+        <section class="info-section">
+            <h2>Our Information</h2>
+            
+            <div class="info-grid">
+                <!-- Location -->
+                <div class="info-card">
+                    <h3>📍 Address</h3>
+                    <p>123 Rue de Rome<br>75000 Paris, France</p>
+                </div>
+
+                <!-- Phone -->
+                <div class="info-card">
+                    <h3>☎️ Phone</h3>
+                    <p><a href="tel:+33123456789">+33 1 23 45 67 89</a></p>
+                </div>
+
+                <!-- Email -->
+                <div class="info-card">
+                    <h3>📧 Email</h3>
+                    <p><a href="mailto:info@pizzaiolo.fr">info@pizzaiolo.fr</a></p>
+                </div>
+
+                <!-- Hours -->
+                <div class="info-card">
+                    <h3>🕐 Hours</h3>
+                    <p>Monday - Sunday<br>11:30 - 23:00</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Reservation Form -->
+        <section class="reservation-section">
+            <h2>Reservation Form</h2>
+            <div class="reservation-wrapper">
+                <form id="reservationForm" class="reservation-form">
+                    <!-- Name -->
+                    <div class="form-group">
+                        <label for="name">Your Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="form-group">
+                        <label for="email">Email *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+
+                    <!-- Phone -->
+                    <div class="form-group">
+                        <label for="phone">Phone *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+
+                    <!-- Date -->
+                    <div class="form-group">
+                        <label for="date">Date *</label>
+                        <input type="date" id="date" name="date" required>
+                    </div>
+
+                    <!-- Time -->
+                    <div class="form-group">
+                        <label for="time">Time *</label>
+                        <input type="time" id="time" name="time" required>
+                    </div>
+
+                    <!-- Number of Guests -->
+                    <div class="form-group">
+                        <label for="guests">Nombre de Personnes *</label>
+                        <input type="number" id="guests" name="guests" min="1" max="20" required>
+                    </div>
+
+                    <!-- Location Preference -->
+                    <div class="form-group">
+                        <label for="location">Préférence de Localisation</label>
+                        <select id="location" name="location">
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="inside">À l'intérieur</option>
+                            <option value="outside">À l'extérieur</option>
+                            <option value="any">Peu importe</option>
+                        </select>
+                    </div>
+
+                    <!-- Service Type -->
+                    <div class="form-group">
+                        <label for="serviceType">Type de Service *</label>
+                        <select id="serviceType" name="serviceType" required>
+                            <option value="">-- Sélectionnez --</option>
+                            <option value="dine-in">Sur place</option>
+                            <option value="takeaway">À emporter</option>
+                        </select>
+                    </div>
+
+                    <!-- Special Requests -->
+                    <div class="form-group">
+                        <label for="requests">Demandes Spéciales</label>
+                        <textarea id="requests" name="requests" placeholder="Allergies, occasions spéciales, etc."></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <button type="submit" class="btn-submit">Réserver</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- MOBILE BOTTOM NAVIGATION -->
+    <nav class="bottom-bar">
+        <a class="bottom-link" href="index.html">Menu</a>
+        <a class="bottom-link" href="contact.html">Reservation</a>
+        <a class="bottom-link" href="about.html">About</a>
+    </nav>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Pizzaiolo</h3>
+                <p>Authentique pizza italienne<br>depuis 1985</p>
+            </div>
+            <div class="footer-section">
+                <h3>Adresse</h3>
+                <p>123 Rue de Rome<br>75000 Paris, France</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <p>Tel: +33 1 23 45 67 89<br>Email: info@pizzaiolo.fr</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>© 2024 Pizzaiolo. Tous droits réservés.</span>
+        </div>
+    </footer>
+
+    <script src="contact.js"></script>
+</body>
+
+</html>
